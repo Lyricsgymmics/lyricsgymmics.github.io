@@ -28,12 +28,12 @@ $(function () {
      * Comment the lines out to remove the grid
      */
 
-    // for (let i = 100; i < canvas.width; i += 100) {
-    //   createPlatform(i, canvas.height, -1, -canvas.height);
-    // }
-    // for (let i = 100; i < canvas.height; i += 100) {
-    //   createPlatform(canvas.width, i, -canvas.width, -1);
-    // }
+     for (let i = 100; i < canvas.width; i += 100) {
+       createPlatform(i, canvas.height, -1, -canvas.height);
+     }
+     for (let i = 100; i < canvas.height; i += 100) {
+       createPlatform(canvas.width, i, -canvas.width, -1);
+     }
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -47,7 +47,33 @@ $(function () {
 
     createPlatform(100,638,100,10)
     
+    createPlatform(400,600,100,10)
     
+    createPlatform(585,500,110,10)
+
+    createPlatform(630,90,100,10)
+
+    createPlatform(250,30,100,10)
+
+    createCollectable("database",350,3)
+
+    createCollectable("grace",0,0)
+
+    createCannon("bottom",235,1000)
+
+    createCannon("bottom",750,2000)
+
+    createCannon("left",465,1000)
+
+    createPlatform(900,400,200,50)
+
+    createPlatform(750,444,35,10)
+
+    createCollectable("grace",980,100,)
+
+    createPlatform(800,180,100,10)
+
+    createPlatform(930,279,20,10)
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
