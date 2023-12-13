@@ -69,6 +69,8 @@ $(function () {
 
     createPlatform(750,444,35,10)
 
+    createCollectable("database",750,1)
+
     createCollectable("grace",980,100,)
 
     createPlatform(800,180,100,10)
